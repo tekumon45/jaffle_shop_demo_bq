@@ -12,7 +12,6 @@ profile: default # Put your profile here
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["data-tests"]
-seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
@@ -26,7 +25,7 @@ vars:
 
 seeds:
   jaffle_shop:
-    +schema: raw
+    +schema: jaffle_shop_demo_bq_dev
 
 models:
   jaffle_shop:
